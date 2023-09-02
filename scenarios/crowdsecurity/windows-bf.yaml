@@ -1,6 +1,6 @@
 # windows auth bruteforce
 type: leaky
-name: crowdsecurity/windows-bf
+name: crowdsecurity/windows-bf-malanda
 description: "Detect windows auth bruteforce"
 filter: "evt.Meta.log_type == 'windows_failed_auth'"
 leakspeed: "10s"
